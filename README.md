@@ -4,12 +4,12 @@ A comprehensive mental health support application designed to help users track t
 
 ## ✨ Features
 
-- **Daily Check-ins** 😊 - Track your mood and reflect on your day
-- **Journaling** ✍️ - Express your thoughts and feelings privately with rich text editing
-- **Breathing Exercises** 🧘 - Practice guided mindful breathing to calm your mind
-- **Resource Library** 📚 - Access helpful articles, exercises, and support materials
-- **User Authentication** 🔐 - Secure Firebase authentication
-- **Responsive Design** 📱 - Beautiful UI that works on all devices
+- **Daily Check-ins** - Track your mood and reflect on your day
+- **Journaling** - Express your thoughts and feelings privately with rich text editing
+- **Breathing Exercises** - Practice guided mindful breathing to calm your mind
+- **Resource Library** - Access helpful articles, exercises, and support materials
+- **User Authentication**  - Secure Firebase authentication
+- **Responsive Design**  - Beautiful UI that works on all devices
 
 ## 🚀 Tech Stack
 
@@ -17,22 +17,18 @@ A comprehensive mental health support application designed to help users track t
 - **Styling**: Tailwind CSS 4
 - **Authentication**: Firebase Auth
 - **Database**: Firebase Firestore
-- **Charts**: Recharts for mood tracking visualization
-- **Rich Text Editor**: React Quill for journaling
-- **Deployment**: Ready for Vercel/Netlify
 
 ## 📋 Prerequisites
 
 - Node.js (version 16 or higher)
-- npm or yarn
 - Firebase account (for authentication and database)
 
 ## 🛠️ Installation
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/my-mental-health-app.git
-   cd my-mental-health-app
+   git clone https://github.com/Sterlingjerry/Neuro-app.git
+   cd Neuro-app
    ```
 
 2. **Install dependencies**
