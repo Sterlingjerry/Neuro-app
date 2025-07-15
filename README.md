@@ -1,70 +1,136 @@
-# Getting Started with Create React App
+# 🧠 Mental Health & Well-being App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A comprehensive mental health support application designed to help users track their emotional well-being, practice mindfulness, and access helpful resources during their academic journey.
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+- **Daily Check-ins** 😊 - Track your mood and reflect on your day
+- **Journaling** ✍️ - Express your thoughts and feelings privately with rich text editing
+- **Breathing Exercises** 🧘 - Practice guided mindful breathing to calm your mind
+- **Resource Library** 📚 - Access helpful articles, exercises, and support materials
+- **User Authentication** 🔐 - Secure Firebase authentication
+- **Responsive Design** 📱 - Beautiful UI that works on all devices
 
-### `npm start`
+## 🚀 Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React 19 + Vite
+- **Styling**: Tailwind CSS 4
+- **Authentication**: Firebase Auth
+- **Database**: Firebase Firestore
+- **Charts**: Recharts for mood tracking visualization
+- **Rich Text Editor**: React Quill for journaling
+- **Deployment**: Ready for Vercel/Netlify
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📋 Prerequisites
 
-### `npm test`
+- Node.js (version 16 or higher)
+- npm or yarn
+- Firebase account (for authentication and database)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Installation
 
-### `npm run build`
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/my-mental-health-app.git
+   cd my-mental-health-app
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Set up Firebase**
+   - Create a new Firebase project at [Firebase Console](https://console.firebase.google.com/)
+   - Enable Authentication (Email/Password)
+   - Create a Firestore database
+   - Copy your Firebase config
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Environment Setup**
+   - Copy `.env.example` to `.env`
+   - Fill in your Firebase configuration:
+   ```env
+   VITE_FIREBASE_API_KEY=your_api_key
+   VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+   VITE_FIREBASE_PROJECT_ID=your_project_id
+   VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+   VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+   VITE_FIREBASE_APP_ID=your_app_id
+   ```
 
-### `npm run eject`
+5. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📱 Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Sign Up/Login** - Create an account or log in with existing credentials
+2. **Daily Check-in** - Start your day by tracking your mood and energy levels
+3. **Journal** - Write about your thoughts, experiences, and reflections
+4. **Breathing Exercise** - Take a moment to practice mindful breathing
+5. **Explore Resources** - Browse helpful articles and mental health resources
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🏗️ Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+src/
+├── components/          # Reusable UI components
+│   ├── FeatureCard.jsx
+│   ├── Header.jsx
+│   ├── Logo.jsx
+│   └── ...
+├── pages/              # Main application pages
+│   ├── HomePage.jsx
+│   ├── AuthPage.jsx
+│   ├── CheckInPage.jsx
+│   ├── JournalPage.jsx
+│   └── ...
+├── assets/            # Images and static assets
+├── firebase.js        # Firebase configuration
+├── App.jsx           # Main application component
+└── main.jsx          # Application entry point
+```
 
-## Learn More
+## 🔧 Available Scripts
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🌈 Customization
 
-### Code Splitting
+The app uses Tailwind CSS with custom brand colors:
+- Primary Blue: `text-brand-blue`
+- Dark Text: `text-brand-black`
+- Custom font: Montserrat
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Contributing
 
-### Analyzing the Bundle Size
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📄 License
 
-### Making a Progressive Web App
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🆘 Support
 
-### Advanced Configuration
+If you're experiencing a mental health crisis, please reach out to:
+- **National Suicide Prevention Lifeline**: 988
+- **Crisis Text Line**: Text HOME to 741741
+- **Emergency Services**: 911
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🙏 Acknowledgments
 
-### Deployment
+- Built with care for student mental health and well-being
+- Inspired by the need for accessible mental health tools
+- Thanks to the open-source community for the amazing tools and libraries
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Remember**: This app is a tool to support your mental health journey, but it's not a substitute for professional help. Please reach out to mental health professionals when needed.
