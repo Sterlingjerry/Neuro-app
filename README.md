@@ -1,8 +1,8 @@
-# 🧠 Mental Health & Well-being App
+# Mental Health & Well-being App
 
 A comprehensive mental health support application designed to help users track their emotional well-being, practice mindfulness, and access helpful resources during their academic journey.
 
-## ✨ Features
+## Features
 
 - **Daily Check-ins** - Track your mood and reflect on your day
 - **Journaling** - Express your thoughts and feelings privately with rich text editing
@@ -11,19 +11,19 @@ A comprehensive mental health support application designed to help users track t
 - **User Authentication**  - Secure Firebase authentication
 - **Responsive Design**  - Beautiful UI that works on all devices
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Frontend**: React 19 + Vite
 - **Styling**: Tailwind CSS 4
 - **Authentication**: Firebase Auth
 - **Database**: Firebase Firestore
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js (version 16 or higher)
 - Firebase account (for authentication and database)
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -59,7 +59,7 @@ A comprehensive mental health support application designed to help users track t
    npm run dev
    ```
 
-## 📱 Usage
+## Usage
 
 1. **Sign Up/Login** - Create an account or log in with existing credentials
 2. **Daily Check-in** - Start your day by tracking your mood and energy levels
@@ -67,66 +67,19 @@ A comprehensive mental health support application designed to help users track t
 4. **Breathing Exercise** - Take a moment to practice mindful breathing
 5. **Explore Resources** - Browse helpful articles and mental health resources
 
-## 🏗️ Project Structure
 
-```
-src/
-├── components/          # Reusable UI components
-│   ├── FeatureCard.jsx
-│   ├── Header.jsx
-│   ├── Logo.jsx
-│   └── ...
-├── pages/              # Main application pages
-│   ├── HomePage.jsx
-│   ├── AuthPage.jsx
-│   ├── CheckInPage.jsx
-│   ├── JournalPage.jsx
-│   └── ...
-├── assets/            # Images and static assets
-├── firebase.js        # Firebase configuration
-├── App.jsx           # Main application component
-└── main.jsx          # Application entry point
-```
-
-## 🔧 Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-
-## 🌈 Customization
-
-The app uses Tailwind CSS with custom brand colors:
-- Primary Blue: `text-brand-blue`
-- Dark Text: `text-brand-black`
-- Custom font: Montserrat
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🆘 Support
+## Support
 
 If you're experiencing a mental health crisis, please reach out to:
 - **National Suicide Prevention Lifeline**: 988
 - **Crisis Text Line**: Text HOME to 741741
 - **Emergency Services**: 911
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with care for student mental health and well-being
 - Inspired by the need for accessible mental health tools
 - Thanks to the open-source community for the amazing tools and libraries
 
----
 
 **Remember**: This app is a tool to support your mental health journey, but it's not a substitute for professional help. Please reach out to mental health professionals when needed.
